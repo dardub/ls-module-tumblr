@@ -8,7 +8,7 @@ Provides basic integration with Tumblr for your store.
 1. Done!
 
 ## Usage
-Add this code to your page (and change the username parameter):
+Add this code to your page (and change the username parameter). Caching must be enabled - the Tumblr API is unreliable.
 
 ```php
 	<?
