@@ -37,7 +37,7 @@ class readTumblr {
 		if ($sTumblrID == null) { unset($this); return false; }
 
 		$this->sTumblrID = $sTumblrID;
-		$sTumblrURL = $sTumblrID.'.tumblr.com';
+		$sTumblrURL = $sTumblrID;
 		
 		$oNetHttp = &$this->oNetHttp;
 		$oNetHttp = new netHttp($sTumblrURL);
